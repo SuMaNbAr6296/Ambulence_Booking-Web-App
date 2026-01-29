@@ -1,16 +1,64 @@
-# React + Vite
+# Ambulance Booking Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive web application designed for booking ambulance services. Built with React, Vite, and TailwindCSS, this application provides a seamless user experience for users to learn about services and get in touch for emergency or scheduled transport.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design**: Fully optimized for desktops, tablets, and mobile devices.
+- **Dynamic Navigation**: Smooth navigation between Home, About, Services, and Contact pages using React Router.
+- **Service Showcase**: Detailed display of available ambulance services.
+- **Contact Form**: Integrated contact form for quick inquiries and bookings.
+- **Interactive UI**: Engaging user interface with Hero sections, Feature highlights, and more.
 
-## React Compiler
+## 🛠️ Technology Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **[React](https://react.dev/)**: JavaScript library for building user interfaces.
+- **[Vite](https://vitejs.dev/)**: Fast frontend build tool.
+- **[TailwindCSS](https://tailwindcss.com/)**: Utility-first CSS framework for styling.
+- **[React Router](https://reactrouter.com/)**: Library for routing in React applications.
+- **[React Icons](https://react-icons.github.io/react-icons/)**: Icon library for React.
 
-## Expanding the ESLint configuration
+## 📦 Installation & Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps to set up the project locally:
+
+1.  **Clone the repository:**
+    ```bash
+    git clone <repository-url>
+    cd <repository-directory>
+    ```
+
+2.  **Install dependencies:**
+    Make sure you have Node.js installed. Then run:
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server:**
+    Start the local development server:
+    ```bash
+    npm run dev
+    ```
+    The application will be available at `http://localhost:5173`.
+
+4.  **Build for production:**
+    To create a production-ready build:
+    ```bash
+    npm run build
+    ```
+
+## 📂 Project Structure
+
+```
+src/
+├── Components/    # Reusable UI components (Navbar, Hero, Features, etc.)
+├── Pages/         # Page components (Home, About, Services, Contact)
+├── assets/        # Static assets like images and icons
+├── App.jsx        # Main application component and routing setup
+├── main.jsx       # Application entry point
+└── index.css      # Global styles and Tailwind directives
+```
+
+## 📝 License
+
+This project is open-source and available for personal and educational use.
